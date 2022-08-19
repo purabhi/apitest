@@ -7,7 +7,7 @@ app.listen(process.env.PORT || 8080, function () {
     console.log('server started at port ')
 })
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost/logindetails',
+mongoose.connect('mongodb+srv://purnima:dheemakachua%40123@cluster0.cxrbijc.mongodb.net/loginDetails?retryWrites=true&w=majority',
     { useNewUrlParser: true, useUnifiedTopology: true })
 
 
